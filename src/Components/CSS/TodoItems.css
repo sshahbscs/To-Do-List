@@ -1,0 +1,32 @@
+
+img{
+    width:20px;
+    height: 20px;
+    cursor: pointer;
+}
+.todo-items{
+    /* margin-top:2%; */
+    display: flex;
+    justify-content: space-between;
+    padding:8px 0px;
+    align-items:center;   
+}
+.todo-items-container{
+    display: flex;
+    padding-left: .6rem;
+
+}
+.todo-items-text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    padding-left: 0.6rem;
+    cursor: pointer;
+}
+.cross-img{
+    padding-right: 1.5rem;
+    cursor: pointer;
+
+}
+.line-through{
+    text-decoration: line-through solid #26577C 2px;
+}
